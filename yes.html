@@ -1,0 +1,96 @@
+ <!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>yes</title>
+    </head>
+    <body>
+        <nav class = "navbar navbar-dark bg-dark">
+           <a href ="https://ide-f314cb0583db4c29a4dfaba8bdfaf44a-8080.cs50.ws/index.html" class = "navbar-brand"> <img src = "https://media.tenor.com/images/709f4846d296ac32daf39500b9e9fde2/tenor.gif" alt = "rikka" width = "50" height = "50"> </a>
+            <a href ="https://ide-f314cb0583db4c29a4dfaba8bdfaf44a-8080.cs50.ws/yes.html" class = "navbar-brand"> yes </a>
+            <a href ="https://ide-f314cb0583db4c29a4dfaba8bdfaf44a-8080.cs50.ws/giga.html" class = "navbar-brand"> gigagenius </a>
+            <a href ="https://ide-f314cb0583db4c29a4dfaba8bdfaf44a-8080.cs50.ws/%3F.html" class = "navbar-brand"> ? </a>
+            <a href ="https://ide-f314cb0583db4c29a4dfaba8bdfaf44a-8080.cs50.ws/game.html" class = "navbar-brand"> gaem </a>
+            <a href ="https://ide-f314cb0583db4c29a4dfaba8bdfaf44a-8080.cs50.ws/extra.html" class = "navbar-brand"> extra </a>
+            <a href = "https://github.com/Dylan916/" class = "navbar-brand"><img src ='https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png' width ='50' height ='50'> </a>
+        </nav>
+        <h2>Magic Greeter</h2>
+        <script>
+
+            document.addEventListener('DOMContentLoaded', function() {
+                let input = document.querySelector('input');
+                input.addEventListener('keyup', function(event) {
+                    let name = document.querySelector('#name');
+                    if(input.value == 'Lucas' || input.value == 'lucas') {
+                        name.innerHTML = 'Hello, tenshi. Reality be rent. Synapse break. Vanishment, this world!';
+                        vanishment.style.visibility = 'visible';
+                        $("#vanishment")[0].src += "?autoplay=1";
+                    }
+                    
+                    else if (input.value == 'Devin' || input.value == 'devin'){
+                        name.innerHTML = 'Hello, ziggs or mario';
+                        devin.style.visibility = 'visible';
+                        $("#devin")[0].src += "?autoplay=1";
+                    }
+                    
+                    else if (input.value == 'Jenson' || input.value == 'jenson'){
+                        name.innerHTML = 'Hello, master yi';
+                        inside_identity.style.visibility = 'visible';
+                        $("#inside_identity")[0].src += "?autoplay=1";
+                    }
+                    
+                    else if (input.value == 'Kyle' || input.value == 'kyle') {
+                        name.innerHTML = "Hello, stinker ur bad but vivy fluorite eye's song isn't";
+                        vivy.style.visibility = 'visible';
+                        $("#vivy")[0].src += "?autoplay=1";
+                    }
+                    
+                    else if (input.value == 'Dylan' || input.value == 'dylan') {
+                        name.innerHTML = "Hello, whoever u r but y tf did u put my name, ik a giga genius and all, well here's some good music";
+                        leader.style.visibility = 'visible';
+                        canary.style.visibility = 'visible';
+                    }
+                    
+                    else if (input.value == 'Kaitlyn' || input.value == 'kaitlyn'){
+                        name.innerHTML = "Hello, Kaitlyn, and yes we know ur better (and more toxic) than me. See i'm nice, this is something you would do.";
+                        iamnice.style.visibility = 'visible';
+                    }
+                    
+                    else if (input.value == 'Michelle' || input.value == 'michelle'){
+                        name.innerHTML = "Hello, ahri main, i wonder if lucas likes ahri";
+                    }
+                    else {
+                        name.innerHTML = `Hello, ${input.value}`;
+                        vanishment.style.visibility = 'hidden';
+                        devin.style.visibility = 'hidden';
+                        inside_identity.style.visibility = 'hidden';
+                        vivy.style.visibility = 'hidden'                        
+                        leader.style.visibility = 'hidden';
+                        canary.style.visibility = 'hidden';
+                        iamnice.style.visibility = 'hidden'
+                    }
+                    
+                });
+            });
+
+        </script>
+        
+        <form>
+            <input autocomplete="off" autofocus placeholder="Name" type="text">
+        </form>
+        <p id="name">Enter your name see what happens</p>
+        <div class='container'>
+            <iframe class = "images" id = "vanishment" width="560" height="315" src="https://www.youtube.com/embed/8EUuYxXJ6MY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class = "images" id = "devin" width="560" height="315" src="https://www.youtube.com/embed/Gge-rV6e3I8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class = "images" id = "inside_identity" width="560" height="315" src="https://www.youtube.com/embed/nFou81Ckke8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class = "images" id = "vivy" width="560" height="315" src="https://www.youtube.com/embed/JqN4_mufE2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <img id = "iamnice" src ='https://cdn.discordapp.com/attachments/859871178059546624/868971585539809310/unknown.png' width="560" height="315">
+            <iframe class = "images" id = "leader" width="560" height="315" src="https://www.youtube.com/embed/k18g-12B9h4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id = "canary" width="560" height="315" src="https://www.youtube.com/embed/81NN9R6MKNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+        </div>
+    </body>
+               
