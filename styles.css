@@ -133,10 +133,12 @@ body {
 
 #leader {
 	visibility: hidden;
+	position: absolute;
 }
 
 #canary {
 	visibility: hidden;
+	position: absolute;
 }
 
 #iamnice {
@@ -145,11 +147,22 @@ body {
 }
 
 
-#bee {
+#twobee {
+	visibility: hidden;
+	position: absolute;
+}
+
+#gopher {
+	visibility: hidden;
+	left: 560px;
+
+}
+
+#filler {
 	visibility: hidden;
 }
 
-#twobee {
+#fillertwo {
 	visibility: hidden;
 }
 #lefto {
