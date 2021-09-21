@@ -10,7 +10,7 @@
     </head>
     <body>
         <nav class = "navbar navbar-dark bg-dark">
-           <a href ="https://dylan916.github.io/cs50/index.html" class = "navbar-brand"> <img src = "https://media.tenor.com/images/709f4846d296ac32daf39500b9e9fde2/tenor.gif" alt = "rikka" width = "50" height = "50"> </a>
+            <a href ="https://dylan916.github.io/cs50/index.html" class = "navbar-brand"> <img src = "https://media.tenor.com/images/709f4846d296ac32daf39500b9e9fde2/tenor.gif" alt = "rikka" width = "50" height = "50"> </a>
             <a href ="https://dylan916.github.io/cs50/yes.html" class = "navbar-brand"> yes </a>
             <a href ="https://dylan916.github.io/cs50/giga.html" class = "navbar-brand"> gigagenius </a>
             <a href ="https://dylan916.github.io/cs50/qst.html" class = "navbar-brand"> ? </a>
@@ -63,6 +63,12 @@
                     else if (input.value == 'Michelle' || input.value == 'michelle'){
                         name.innerHTML = "Hello, ahri main, i wonder if lucas likes ahri";
                     }
+                    
+                    else if (input.value == 'Abby' || input.value == 'abby'){
+                        name.innerHTML = "Hello a bee, bestie, hot guy, wanna get eloped and make out? well here r some p cool cats"
+                        bee.style.visibility= 'visible';
+                        2bee.style.visibility = 'visible';
+                    }
                     else {
                         name.innerHTML = `Hello, ${input.value}`;
                         vanishment.style.visibility = 'hidden';
@@ -71,7 +77,9 @@
                         vivy.style.visibility = 'hidden'                        
                         leader.style.visibility = 'hidden';
                         canary.style.visibility = 'hidden';
-                        iamnice.style.visibility = 'hidden'
+                        iamnice.style.visibility = 'hidden';
+                        bee.style.visibility= 'hidden';
+                        2bee.style.visibility = 'hidden';
                     }
                     
                 });
@@ -91,6 +99,9 @@
             <img id = "iamnice" src ='https://cdn.discordapp.com/attachments/859871178059546624/868971585539809310/unknown.png' width="560" height="315">
             <iframe class = "images" id = "leader" width="560" height="315" src="https://www.youtube.com/embed/k18g-12B9h4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <iframe id = "canary" width="560" height="315" src="https://www.youtube.com/embed/81NN9R6MKNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+            <img class = "images" id ="bee" src = "https://i.pinimg.com/originals/ea/fd/e4/eafde4a61f57fd1badcb9aeb605e421d.png" width="560" height="315">
+            <img  id ="2bee" src = "https://static.wikia.nocookie.net/owobot/images/e/e9/Pbeecat.gif/revision/latest/top-crop/width/360/height/450?cb=20200116020750" width="560" height="315">
+            
         </div>
     </body>
                
