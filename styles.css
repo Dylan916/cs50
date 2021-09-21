@@ -144,6 +144,14 @@ body {
 	position: absolute;
 }
 
+
+#bee {
+	visibility: hidden;
+}
+
+#2bee {
+	visibility: hidden;
+}
 #lefto {
 	float: left;
 }
